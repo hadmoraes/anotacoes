@@ -7,7 +7,6 @@ class AnotacoesController{
         const notas = $('#descricaoTarefa').val();
         const anotacao = new Anotacoes(titulo,notas);
         this.arrAnotacoes.push(anotacao);
-        console.log(this.arrAnotacoes, anotacao);
     }
 }
 
