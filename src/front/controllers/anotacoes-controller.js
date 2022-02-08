@@ -17,6 +17,5 @@ const btn = $('#btnSubmit')
 btn.on('click', (event)=>{
     event.preventDefault();
     const anotacaoNova = new AnotacoesController();
-    anotacaoNova.addAnotacao()
-    console.log('oi')
+    anotacaoNova.addAnotacao();
 })
